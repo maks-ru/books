@@ -34,7 +34,7 @@ const App: FC = () => {
     <div className={cn('app')} data-testid='app'>
       <Routes>
         <Route
-          path='/'
+          path='/books'
           element={<MainPage />}
         />
         <Route
